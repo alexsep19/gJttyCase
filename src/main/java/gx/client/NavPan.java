@@ -24,7 +24,7 @@ public class NavPan extends ContentPanel{
         VBoxLayoutContainer bc = new VBoxLayoutContainer();
         bc.setPadding(new Padding(1));
         bc.setVBoxLayoutAlign(VBoxLayoutAlign.STRETCH);
-        bTable = new TextButton("Table", new SelectHandler(){
+        bTable = new TextButton("Form", new SelectHandler(){
 	       @Override
 	       public void onSelect(SelectEvent event) {
 	    	bTable.setEnabled(false);
